@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+.chessTable{
+    display: inline-block;
+    border: solid brown 5px;
+    margin-top: 80px;
+}
+
+#chessboardContainer{
+    display: flex;
+    justify-content: center;
+}
